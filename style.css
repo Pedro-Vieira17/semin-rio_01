@@ -37,12 +37,11 @@ main {
 }
 
 .introdução {
-    background-color: rgb(89, 167, 113);
-    border-radius: 20px;
+    background-color: rgb(70, 67, 67);
     color: white;
     margin: 30px auto;
     padding: 15px;
-    max-width: 900px;
+   
 
 }
 
