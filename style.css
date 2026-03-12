@@ -28,7 +28,10 @@ h3 {
 
 body {
     margin: 0;
-
+    background-image: url(assets/estilo-de-papel-linhas-dinamicas-fundo_23-2149008629.avif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 main {
@@ -42,7 +45,6 @@ main {
     margin: 30px auto;
     padding: 15px;
    
-
 }
 
 footer {
