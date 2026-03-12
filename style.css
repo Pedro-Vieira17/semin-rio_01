@@ -58,9 +58,9 @@ footer {
 }
 
 .Display {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(180, 176, 176);
     border-radius: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 30px auto;
     padding: 15px;
     max-width: 900px;
