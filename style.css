@@ -1,0 +1,13 @@
+.titulo_fixado {
+    background-color: rgb(255, 81, 0);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+
+}
