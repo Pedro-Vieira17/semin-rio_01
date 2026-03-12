@@ -3,20 +3,23 @@
     color: white;
     padding: 5px;
     text-align: center;
-    position: fixed;
+    position: fixed top;
     width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header{
-   background-color: rgb(0, 175, 53); 
-   color: white;
+header {
+    background-color: rgb(0, 175, 53);
+    color: white;
     text-align: center;
     width: 100%;
     margin: 0;
+
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     margin: 0;
     padding: 10px;
 }
@@ -25,11 +28,21 @@ h1, h2, h3{
 
 body {
     margin: 0;
+
 }
 
 main {
 
     margin-top: 80px;
     text-align: center;
+}
+
+.introdução {
+    background-color: rgb(89, 167, 113);
+    border-radius: 20px;
+    color: white;
+    margin: 90px auto;
+    padding: 15px;
+    max-width: 900px;
 
 }
