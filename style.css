@@ -3,7 +3,7 @@
     color: white;
     padding: 5px;
     text-align: center;
-    position: fixed top;
+    position: fixed;
     width: 100%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -28,10 +28,8 @@ h3 {
 
 body {
     margin: 0;
-    background-image: url(assets/estilo-de-papel-linhas-dinamicas-fundo_23-2149008629.avif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+background-color: rgb(214, 214, 214);
+padding-bottom: 60px;
 }
 
 main {
@@ -55,24 +53,34 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+   
 }
 
+
+
 .Display {
-    background-color: rgb(180, 176, 176);
+    background-color: rgb(255, 255, 255);
     border-radius: 20px;
     color: rgb(0, 0, 0);
     margin: 30px auto;
     padding: 15px;
-    max-width: 900px;
+    max-width: 1300px;
 }
 
-.Display {
-    background-color: rgb(180, 176, 176);
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    margin: 30px auto;
-    padding: 15px;
-    max-width: 900px;
+.subtitulo{
+    font-size: x-large;
+}
 
+.flex{
+    display: flex;
+    gap: 15px;
+    
+}
 
+.time{
+    background-color: rgb(6, 66, 145);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    align-items: center;
 }

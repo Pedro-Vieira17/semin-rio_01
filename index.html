@@ -30,35 +30,192 @@
         </div>
 
         <div class="Display">
-            <h2> <strong>Display</strong></h2>
-                <p>A propriedade display é o motor principal da renderização no navegador. Ela define o modelo de caixa (Box Model) que o elemento utilizará. No CSS, tudo é uma caixa, e o display determina como essa caixa se senta na "mesa" da página e como ela interage com as caixas vizinhas.</p>
-                <p>Comportamento de Fluxo: Ela dita se o elemento vai "quebrar a linha" (como um parágrafo) ou se vai ficar "lado a lado" (como uma palavra em negrito).</p>
-                <p>Comportamento Interno: Valores modernos como flex e grid não mudam apenas como o elemento se comporta por fora, mas transformam o elemento em um container, ditando como todos os seus elementos filhos devem se organizar automaticamente (alinhamento, distribuição de espaço e ordem).</p>
+            <h1> <strong>PROPRIEDADE DISPLAY</strong></h1>
+            <p>A propriedade display é o motor principal da renderização no navegador. Ela define o modelo de caixa (Box
+                Model) que o elemento utilizará. No CSS, tudo é uma caixa, e o display determina como essa caixa se
+                senta na "mesa" da página e como ela interage com as caixas vizinhas.</p>
+            <p>Comportamento de Fluxo: Ela dita se o elemento vai "quebrar a linha" (como um parágrafo) ou se vai ficar
+                "lado a lado" (como uma palavra em negrito).</p>
+            <p>Comportamento Interno: Valores modernos como flex e grid não mudam apenas como o elemento se comporta por
+                fora, mas transformam o elemento em um container, ditando como todos os seus elementos filhos devem se
+                organizar automaticamente (alinhamento, distribuição de espaço e ordem).</p>
 
+        </div>
+
+        <div class="subtitulo">
+            <h2><strong>Valores da propriedade display</strong></h2>
         </div>
 
         <div>
-            <h2><strong>Valores Principais:</strong></h2>
-        </div>
-
-        <div>
             <div class="Display">
-            <h2><strong>Block</strong></h2>
-            <p>O elemento ocupa toda a largura disponível (100%), começando sempre em uma nova linha. Exemplos: &lt; div &gt;, &lt; h1  &gt;, &lt; p  &gt;.</p>
-        </div>
+                <h2><strong>Block</strong></h2>
+                <p>O elemento ocupa toda a largura disponível (100%), começando sempre em uma nova linha. Exemplos: &lt;
+                    div &gt;, &lt; h1 &gt;, &lt; p &gt;.</p>
 
-         <div>
-            <div class="Display">
-            <h2><strong>Inline</strong></h2>
-            <p>O elemento ocupa apenas a largura necessária para o seu conteúdo. Não aceita definições de largura (width) ou altura (height). 
-                Exemplo:.&lt; spam &gt; </p>
-        </div>
+                <div style="background-color: lightblue; margin: 5px;">Elemento 1</div>
+                <div style="background-color: lightgreen; margin: 5px;">Elemento 2</div>
 
-         <div>
-            <div class="Display">
-            <h2><strong>inline-block</strong></h2>
-            <p>Uma mistura dos dois anteriores; o elemento flui na linha como um inline, mas permite definir largura, altura e margens.</p>
-        </div>
+            </div>
+
+            <div>
+                <div class="Display">
+                    <h2><strong>Inline</strong></h2>
+                    <p>O elemento ocupa apenas a largura necessária para o seu conteúdo. Não aceita definições de
+                        largura (width) ou altura (height).
+                        Exemplo:.&lt; spam &gt; </p>
+
+                    <span style="background-color: yellow;">Inline 1</span>
+                    <span style="background-color: orange;">Inline 2</span>
+
+                </div>
+
+                <div>
+                    <div class="Display">
+                        <h2><strong>inline-block</strong></h2>
+                        <p>Uma mistura dos dois anteriores; o elemento flui na linha como um inline, mas permite definir
+                            largura, altura e margens.</p>
+
+                        <div
+                            style="display: inline-block; width: 100px; height: 50px; background-color: purple; margin: 5px;">
+                        </div>
+                        <div
+                            style="display: inline-block; width: 100px; height: 50px; background-color: pink; margin: 5px;">
+                        </div>
+
+                    </div>
+
+                    <div>
+                        <div class="Display">
+                            <h2><strong>none</strong></h2>
+                            <p> Remove o elemento do documento. Ele não é renderizado e não ocupa espaço na página.</p>
+
+                            <p style="display: none;">Você não deveria ver isso</p>
+                            <p>Esse aqui aparece normalmente</p>
+
+                        </div>
+
+                        <div>
+                            <div class="Display">
+                                <h2><strong>flex</strong></h2>
+                                <p>Organiza elementos automaticamente em linha.</p>
+
+                                <div class="flex">
+                                    <p class="time">Flamengo</p>
+                                    <p class="time">Fluminense</p>
+                                    <p class="time">Vasco</p>
+                                    <p class="time">Botafogo</p>
+                                </div>
+                            </div>
+
+                            <div class="Display">
+                                <h2><strong>grid</strong></h2>
+                                <p> Transforma o elemento em um grid container, permitindo criar layouts baseados em
+                                    colunas e linhas complexas.</p>
+
+                                <div
+                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
+                                </div>
+                                <div
+                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
+                                </div>
+                                <div
+                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
+                                </div>
+                                <div
+                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
+                                </div>
+                            </div>
+
+                            <div class="Display">
+                                <h1> <strong> PROPRIEDADE POSITION</strong></h1>
+                                <p>A propriedade position define como um elemento será posicionado dentro da página.</p>
+                                <p>Por padrão, todos os elementos seguem o chamado fluxo normal do documento, ou seja,
+                                    aparecem na ordem em que estão no HTML. A propriedade position permite alterar esse
+                                    comportamento, possibilitando deslocar, sobrepor ou fixar elementos na tela.</p>
+
+
+                            </div>
+
+                            <div class="subtitulo">
+                                <h2><strong>Valores da propriedade position</strong></h2>
+                            </div>
+
+                            <div class="Display">
+                                <h2><strong>Static</strong></h2>
+                                <p>É o valor padrão. O elemento segue o fluxo normal da página e não pode ser movido
+                                    usando top, left, right ou bottom.</p>
+
+                                <div style="background-color: lightblue; margin: 5px;">Elemento normal 1</div>
+                                <div style="background-color: lightgreen; margin: 5px;">Elemento normal 2</div>
+                            </div>
+
+                            <div class="Display">
+                                <h2><strong>Relative</strong></h2>
+                                <p>O elemento continua ocupando seu espaço original, mas pode ser deslocado.</p>
+
+                                <div style="background-color: lightblue; margin: 5px;">Elemento normal</div>
+                                <div
+                                    style="position: relative; top: 10px; left: 20px; background-color: orange; margin: 5px;">
+                                    Elemento deslocado
+                                </div>
+                            </div>
+
+                            <div class="Display" style="position: relative; height: 120px;">
+                                <h2><strong>Absolute</strong></h2>
+                                <p>O elemento é removido do fluxo e posicionado em relação ao elemento pai.</p>
+
+                                <div style="background-color: lightblue; padding: 10px;">Elemento pai</div>
+
+                                <div
+                                    style="position: absolute; top: 10px; right: 10px; background-color: red; color: white; padding: 5px;">
+                                    Absoluto
+                                </div>
+                            </div>
+
+                            <div class="Display">
+                                <h2><strong>Fixed</strong></h2>
+                                <p>O elemento fica fixo na tela, mesmo ao rolar a página.</p>
+
+                                <div
+                                    style="position: fixed; bottom: 80px; right: 20px; background-color: black; color: white; padding: 10px;">
+                                    Fixo
+                                </div>
+
+                                <p>Role a página para ver o efeito.</p>
+                            </div>
+
+                            <div class="Display" style="height: 200px; overflow: auto;">
+                                <h2><strong>Sticky</strong></h2>
+                                <p>O elemento vira fixo ao atingir um ponto da rolagem.</p>
+
+                                <div style="height: 300px;">
+                                    <div
+                                        style="position: sticky; top: 0; background-color: purple; color: white; padding: 10px;">
+                                        Eu fico grudado no topo
+                                    </div>
+
+                                    <p>Conteúdo para rolar...</p>
+                                    <p>Mais conteúdo...</p>
+                                    <p>Mais conteúdo...</p>
+                                    <p>Mais conteúdo...</p>
+                                </div>
+                            </div>
+                            <div class="subtitulo">
+                                <h2><strong>CONCLUSÃO</strong></h2>
+                            </div>
+
+                            <div class="Display">
+                                <p>As propriedades display e position são essenciais para a construção de layouts em
+                                    CSS. Enquanto a propriedade display controla como os elementos são exibidos e
+                                    organizados, a propriedade position permite definir com precisão onde eles devem
+                                    aparecer na tela.</p>
+
+
+                            </div>
+
+
+
+                        </div>
 
     </main>
 
