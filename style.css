@@ -1,5 +1,5 @@
 .titulo_fixado {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(3, 41, 145);
     color: white;
     padding: 5px;
     text-align: center;
@@ -9,7 +9,7 @@
 }
 
 header {
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(0, 13, 56);
     color: white;
     text-align: center;
     width: 100%;
@@ -28,8 +28,8 @@ h3 {
 
 body {
     margin: 0;
-background-color: rgb(214, 214, 214);
-padding-bottom: 60px;
+    background-color: rgb(214, 214, 214);
+    padding-bottom: 60px;
 }
 
 main {
@@ -38,11 +38,11 @@ main {
 }
 
 .introdução {
-    background-color: rgb(70, 67, 67);
+    background-color: rgb(3, 41, 145);
     color: white;
     margin: 30px auto;
     padding: 15px;
-   
+
 }
 
 footer {
@@ -53,7 +53,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-   
+
 }
 
 
@@ -61,26 +61,93 @@ footer {
 .Display {
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(48, 48, 48);
     margin: 30px auto;
     padding: 15px;
     max-width: 1300px;
 }
 
-.subtitulo{
+.propriedade {
+    background-color: rgb(0, 13, 56);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin: 30px auto;
+    padding: 15px;
+    max-width: 1300px;
+}
+
+.subtitulo {
     font-size: x-large;
 }
 
-.flex{
+.flex {
     display: flex;
     gap: 15px;
-    
+
 }
 
-.time{
+.time {
     background-color: rgb(6, 66, 145);
     border-radius: 10px;
     color: white;
     padding: 20px;
     align-items: center;
+}
+
+.block_1 {
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.block_2 {
+
+    background-color: lightgreen;
+    margin: 5px;
+}
+
+.inline {
+    background-color: yellow;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    background-color: purple;
+    margin: 5px;
+
+}
+
+.grid {
+    display: grid;
+    width: 100px;
+    height: 50px;
+    background-color: pink;
+    margin: 5px;
+
+}
+
+.static_1 {
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.static_2 {
+    background-color: lightgreen;
+    margin: 5px;
+}
+
+.relative {
+    background-color: lightblue;
+    margin: 5px;
+}
+
+.relative_deslocado {
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: orange;
+    margin: 5px;
+
+
 }

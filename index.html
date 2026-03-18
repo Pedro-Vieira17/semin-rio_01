@@ -29,7 +29,7 @@
             </h3>
         </div>
 
-        <div class="Display">
+        <div class="propriedade">
             <h1> <strong>PROPRIEDADE DISPLAY</strong></h1>
             <p>A propriedade display é o motor principal da renderização no navegador. Ela define o modelo de caixa (Box
                 Model) que o elemento utilizará. No CSS, tudo é uma caixa, e o display determina como essa caixa se
@@ -52,8 +52,8 @@
                 <p>O elemento ocupa toda a largura disponível (100%), começando sempre em uma nova linha. Exemplos: &lt;
                     div &gt;, &lt; h1 &gt;, &lt; p &gt;.</p>
 
-                <div style="background-color: lightblue; margin: 5px;">Elemento 1</div>
-                <div style="background-color: lightgreen; margin: 5px;">Elemento 2</div>
+                <div class="block_1">Elemento 1</div>
+                <div class="block_2">Elemento 2</div>
 
             </div>
 
@@ -64,8 +64,8 @@
                         largura (width) ou altura (height).
                         Exemplo:.&lt; spam &gt; </p>
 
-                    <span style="background-color: yellow;">Inline 1</span>
-                    <span style="background-color: orange;">Inline 2</span>
+                    <span class="inline">Inline 1</span>
+                    <span class="inline">Inline 2</span>
 
                 </div>
 
@@ -75,12 +75,9 @@
                         <p>Uma mistura dos dois anteriores; o elemento flui na linha como um inline, mas permite definir
                             largura, altura e margens.</p>
 
-                        <div
-                            style="display: inline-block; width: 100px; height: 50px; background-color: purple; margin: 5px;">
-                        </div>
-                        <div
-                            style="display: inline-block; width: 100px; height: 50px; background-color: pink; margin: 5px;">
-                        </div>
+                        <div class="inline-block"></div>
+                        <div class="inline-block"></div>
+
 
                     </div>
 
@@ -112,21 +109,13 @@
                                 <p> Transforma o elemento em um grid container, permitindo criar layouts baseados em
                                     colunas e linhas complexas.</p>
 
-                                <div
-                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
-                                </div>
-                                <div
-                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
-                                </div>
-                                <div
-                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
-                                </div>
-                                <div
-                                    style="display:grid; width: 100px; height: 50px; background-color: pink; margin: 5px;">
-                                </div>
+                                <div class="grid"></div>
+                                <div class="grid"></div>
+                                <div class="grid"></div>
+                                <div class="grid"></div>
                             </div>
 
-                            <div class="Display">
+                            <div class="propriedade">
                                 <h1> <strong> PROPRIEDADE POSITION</strong></h1>
                                 <p>A propriedade position define como um elemento será posicionado dentro da página.</p>
                                 <p>Por padrão, todos os elementos seguem o chamado fluxo normal do documento, ou seja,
@@ -145,19 +134,16 @@
                                 <p>É o valor padrão. O elemento segue o fluxo normal da página e não pode ser movido
                                     usando top, left, right ou bottom.</p>
 
-                                <div style="background-color: lightblue; margin: 5px;">Elemento normal 1</div>
-                                <div style="background-color: lightgreen; margin: 5px;">Elemento normal 2</div>
+                                <div class="static_1">Elemento normal 1</div>
+                                <div class="static_2">Elemento normal 2</div>
                             </div>
 
                             <div class="Display">
                                 <h2><strong>Relative</strong></h2>
                                 <p>O elemento continua ocupando seu espaço original, mas pode ser deslocado.</p>
 
-                                <div style="background-color: lightblue; margin: 5px;">Elemento normal</div>
-                                <div
-                                    style="position: relative; top: 10px; left: 20px; background-color: orange; margin: 5px;">
-                                    Elemento deslocado
-                                </div>
+                                <div class="relative">Elemento normal</div>
+                                <div class="relative_deslocado">Elemento deslocado</div>
                             </div>
 
                             <div class="Display" style="position: relative; height: 120px;">
@@ -218,9 +204,6 @@
                         </div>
 
     </main>
-
-
-
 
 
 
